@@ -274,11 +274,11 @@
  #";; about the language level of this file in a form that our tools ca"
  #"n easily process."
 ) 0 0 4 29 1 #"\n"
-0 0 4 3 184
+0 0 4 3 193
 (
- #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname |Fixed-Si"
- #"ze Data|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #("
- #"#t constructor repeating-decimal #f #t none #f ())))"
+ #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname Fixed-Siz"
+ #"e-Data-Arithmetic) (read-case-sensitive #t) (teachpacks ()) (htdp-se"
+ #"ttings #(#t constructor repeating-decimal #f #t none #f ())))"
 ) 0 0 4 29 1 #"\n"
 0 0 17 3 16 #";Fixed-Size Data"
 0 0 24 29 1 #"\n"
