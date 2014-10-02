@@ -280,12 +280,12 @@
  #";; about the language level of this file in a form that our tools ca"
  #"n easily process."
 ) 0 0 4 29 1 #"\n"
-0 0 4 3 214
+0 0 4 3 221
 (
  #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname How-To-De"
- #"sign-Programs:Designing-World-Programs) (read-case-sensitive #t) (te"
- #"achpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t"
- #" none #f ())))"
+ #"sign-Programs:Designing-World-Programs_Car_v1) (read-case-sensitive "
+ #"#t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decima"
+ #"l #f #t none #f ())))"
 ) 0 0 4 29 1 #"\n"
 0 0 17 3 64
 #";Fixed-Size-Data How-To-Design-Programs:Designing-World-Programs"
@@ -1148,6 +1148,7 @@
 0 0 21 3 1 #"2"
 0 0 24 3 2 #"))"
 0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 15 3 6 #"define"
 0 0 24 3 1 #" "
@@ -1351,8 +1352,7 @@
 0 0 24 29 1 #"\n"
 0 0 17 3 41 #";;interp. x position of the car on screen"
 0 0 24 29 1 #"\n"
-0 0 17 3 43 #";ex38 interp. x position of the right edge "
-0 0 17 3 13 #"car on screen"
+0 0 17 3 56 #";ex38 interp. x position of the right edge car on screen"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 15 3 6 #"define"
