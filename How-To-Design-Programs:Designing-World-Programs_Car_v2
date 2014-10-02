@@ -270,7 +270,7 @@
 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 65 105 225 0
-0 0 -1 -1           0 478 0 4 3 85
+0 0 -1 -1           0 484 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -303,7 +303,7 @@
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 7        2233 69           0 0           0 371 0 14 3 3 #"How"
+0 7        2233 4           0 0           0 371 0 14 3 3 #"How"
 0 0 24 3 1 #" "
 0 0 14 3 2 #"to"
 0 0 24 3 1 #" "
@@ -676,7 +676,7 @@
 0 0 24 29 1 #"\n"
 0           0 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 7         937 69           0 0           0 155 0 14 3 5 #"World"
+0 7         937 4           0 0           0 155 0 14 3 5 #"World"
 0 0 24 3 1 #" "
 0 0 14 3 7 #"program"
 0 0 24 3 1 #" "
@@ -832,7 +832,7 @@
 0 0 14 3 4 #"done"
 0 0 24 29 1 #"\n"
 0           0 0 0 24 29 1 #"\n"
-0 7         499 69           0 0           0 82 0 14 3 6 #"Design"
+0 7         499 4           0 0           0 82 0 14 3 6 #"Design"
 0 0 24 3 1 #" "
 0 0 14 3 1 #"a"
 0 0 24 3 1 #" "
@@ -1239,7 +1239,9 @@
 0 0 24 29 1 #"\n"
 0 0 17 3 33 #";; AnimatioState -> AnimatioState"
 0 0 24 29 1 #"\n"
-0 0 17 3 50 #";; number of clock ticks since animation start + 1"
+0 0 17 3 59
+#";; increment number of clock ticks since animation start by"
+0 0 17 3 2 #" 1"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
@@ -1368,4 +1370,9 @@
 0 0 24 3 2 #"))"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
+0 0 17 3 47 #"; WorldState Number Number String -> WorldState"
+0 0 24 29 1 #"\n"
+0 0 17 3 40 #"; places the car at mouse position (x,y)"
+0 0 24 29 1 #"\n"
+0 0 17 3 37 #"; if the mouse event is \"button-down\""
 0           0
